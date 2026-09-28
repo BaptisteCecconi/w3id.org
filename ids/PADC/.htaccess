@@ -1,0 +1,17 @@
+# PADC namespaces
+#
+# https://w3id.org/padc/epn/* redirects to https://voparis-ns.obspm.fr/rdf/epn/*
+# https://w3id.org/padc/maser/* redirects to https://voparis-ns.obspm.fr/rdf/maser/*
+# https://w3id.org/padc/skg/* redirects to https://voparis-ns.obspm.fr/rdf/skg/*
+#
+# ## Contact
+# This space is administered by:
+#
+# Baptiste Cecconi
+# baptiste.cecconi@obspm.fr
+# GitHub username: BaptisteCecconi
+
+RewriteEngine on
+RewriteRule ^epn/(.*)$ https://voparis-ns.obspm.fr/rdf/epn/$1 [R=302,L]
+RewriteRule ^maser/(.*)$ https://voparis-ns.obspm.fr/rdf/maser/$1 [R=302,L]
+RewriteRule ^skg/(.*)$ https://voparis-ns.obspm.fr/rdf/skg/$1 [R=302,L]
